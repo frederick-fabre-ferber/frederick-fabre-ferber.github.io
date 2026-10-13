@@ -2,14 +2,9 @@
 title: "Publications"
 ---
 
-## Journal articles
-
-Coming soon.
-
-## Conference papers
-
-Coming soon.
-
-## Posters and presentations
-
-Coming soon.
+<iframe
+  src="https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?auteur_exp=Fr%C3%A9d%C3%A9rick+Fabre+Ferber&CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=../css/VisuRubriqueEncadre.css"
+  width="100%"
+  height="1600"
+  style="border:none;">
+</iframe>
