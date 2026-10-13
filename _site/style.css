@@ -1,0 +1,149 @@
+/* =========================
+   PROFIL FIXE À GAUCHE
+   ========================= */
+
+.academic-profile {
+  position: fixed;
+  top: 95px;
+  left: 30px;
+
+  width: 230px;
+
+  text-align: center;
+
+  padding: 15px;
+
+  z-index: 1000;
+}
+
+
+/* PHOTO */
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  border: 4px solid white;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.18);
+
+  margin-bottom: 15px;
+}
+
+
+/* NOM */
+
+.academic-profile h2 {
+  font-size: 1.35rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+
+/* POSTE */
+
+.profile-position {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #666;
+
+  margin-bottom: 15px;
+}
+
+
+/* AFFILIATION */
+
+.profile-affiliation {
+  font-size: 0.9rem;
+  line-height: 1.4;
+
+  margin-bottom: 15px;
+}
+
+.profile-affiliation a {
+  text-decoration: none;
+}
+
+
+/* LOGOS */
+
+.institution-logos {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 15px;
+
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.institution-logos img {
+  max-width: 85px;
+  max-height: 45px;
+
+  object-fit: contain;
+}
+
+
+/* LIENS */
+
+.profile-links {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 7px;
+
+  margin-top: 15px;
+}
+
+.profile-links a {
+  text-decoration: none;
+}
+
+.profile-links a:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================
+   CONTENU PRINCIPAL
+   ========================= */
+
+#quarto-content {
+  padding-left: 280px;
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 900px) {
+
+  .academic-profile {
+    position: relative;
+
+    top: auto;
+    left: auto;
+
+    width: 100%;
+
+    margin: 20px auto 30px auto;
+  }
+
+  #quarto-content {
+    padding-left: 0;
+  }
+
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+  }
+}

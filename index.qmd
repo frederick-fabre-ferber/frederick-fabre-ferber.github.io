@@ -1,0 +1,25 @@
+---
+title: "About me"
+---
+
+I am a computer scientist working at the intersection of
+**machine learning, scientific computing and ecological modelling**.
+
+I completed my PhD in Computer Science at
+[Université de La Réunion](https://www.univ-reunion.fr/),
+in collaboration with [CIRAD](https://www.cirad.fr/).
+
+I will join the [LBBE](https://lbbe.univ-lyon1.fr/) at
+[Université Claude Bernard Lyon 1](https://www.univ-lyon1.fr/)
+as a postdoctoral researcher.
+
+My research focuses on the development of machine learning and
+scientific machine learning methods for environmental and ecological
+applications.
+
+## Research interests
+
+- Physics-Informed Neural Networks
+- Surrogate and Hybrid Modelling
+- Machine Learning for Ecology
+- Data Preprocessing
